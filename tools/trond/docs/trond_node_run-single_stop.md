@@ -11,9 +11,9 @@ The following configuration files are required:
 		nile network: ./single_node/docker-compose.fullnode.nile.yml
 		private network: ./single_node/docker-compose.witness.private.yml
 	- Configuration file(by default, these exist in the current repository directory)
-		main network: ./conf/main_net_config.conf, used by main network
-		nile network: ./conf/nile_net_config.conf, used by nile network
-		private network: ./conf/private_net_config_*.conf, used by private network
+		main network: ./conf/main_net_config.conf
+		nile network: ./conf/nile_net_config.conf
+		private network: ./conf/private_net_config_*.conf
 
 
 ```
