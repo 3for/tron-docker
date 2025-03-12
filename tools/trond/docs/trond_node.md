@@ -25,7 +25,7 @@ Please refer to the available commands below.
 # Help information for node command
 $ ./trond node
 
-# Check and configure node local environment
+# Check and configure node local environment. Make sure run this first before starting the node.
 $ ./trond node env
 
 # Run single java-tron fullnode for main network
@@ -59,3 +59,4 @@ $ ./trond node run-single stop -t witness-private
 * [trond](trond.md)	 - Docker automation for TRON nodes
 * [trond node env](trond_node_env.md)	 - Check and configure node local environment
 * [trond node run-single](trond_node_run-single.md)	 - Run single java-tron node for different networks.
+

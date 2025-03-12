@@ -6,14 +6,14 @@ Stop single java-tron node for different networks.
 
 The following configuration files are required:
 
-	- Configuration file(by default, these exist in the current repository directory)
-		main network: ./conf/main_net_config.conf
-		nile network: ./conf/nile_net_config.conf
-		private network: ./conf/private_net_config_*.conf
 	- Docker compose file(by default, these exist in the current repository directory)
 		main network: ./single_node/docker-compose.fullnode.main.yml
 		nile network: ./single_node/docker-compose.fullnode.nile.yml
 		private network: ./single_node/docker-compose.witness.private.yml
+	- Configuration file(by default, these exist in the current repository directory)
+		main network: ./conf/main_net_config.conf, used by main network
+		nile network: ./conf/nile_net_config.conf, used by nile network
+		private network: ./conf/private_net_config_*.conf, used by private network
 
 
 ```
@@ -44,3 +44,4 @@ $ ./trond node run-single stop -t witness-private
 ### SEE ALSO
 
 * [trond node run-single](trond_node_run-single.md)	 - Run single java-tron node for different networks.
+
