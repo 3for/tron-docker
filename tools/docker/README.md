@@ -123,6 +123,7 @@ INFO: Running Tests
 BUILD SUCCESSFUL in 47s
 2 actionable tasks: 2 executed
 ```
+It will automatically remove the test container it starts. If, for any reason, this process is manually killed, you can find the container ID from the log message "Container ID: xxxxxx" and manually remove the test container using `docker rm -f xxxxxx`.
 
 ## Troubleshooting
 
